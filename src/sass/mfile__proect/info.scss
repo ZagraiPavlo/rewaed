@@ -1,0 +1,92 @@
+.info__card{
+	padding-top:80px;
+	.info__back{
+		background:#FFBD2C;
+		border-radius:34px;
+		.info__text{
+			padding:40px 0 0 40px;
+			.info__p1{
+				font-family: Roboto;
+				font-size: 46px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 54px;
+			}
+			.info__line{
+				width: 187px;
+				height: 0px;
+				border: 3px solid #FF7B22;
+			}
+			.info__p2{
+				font-family: Roboto;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 28px;
+
+				margin-top: 40px;
+			}
+			button{
+				max-width: 100%;
+				width: 237px;
+				height: 66px;
+				background:#FFFFFF;
+				font-family: Roboto;
+				font-size: 28px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 33px;
+				box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+				border-radius: 6px;
+				margin: 20px 0 50px 0;
+			}
+		}
+	}
+}
+.info__card2{
+	padding-top:120px;
+	.info__text2{
+     padding:40px 0 0 0px;
+     	.info__pp1{
+     		padding-left:40px;
+		font-family: Roboto;
+		font-size: 46px;
+		font-style: normal;
+	      font-weight: 500;
+		line-height: 54px;
+		color: white;
+			}
+	.info__line2{
+	margin-left:40px;
+	width: 187px;
+	height: 0px;
+	border: 3px solid #C07CD1;
+	}
+	.info__pp2{
+		padding-left:40px;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+       margin-top: 20px;
+       color: white;
+	}
+	.info__img{
+	padding-top:30px; 
+	.info__app img{
+		width: 240px;
+
+	}
+	.info__gog img{
+		width: 200px;
+     }
+	}			
+}
+}
+@media(max-width: 700px){
+	.info__pipl img{
+		width: 400px;
+	}
+
+}

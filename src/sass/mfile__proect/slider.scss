@@ -1,0 +1,38 @@
+.slide{
+	padding-top:40px;
+	img{
+		width: 100%;
+		padding:0 20px;
+	}
+}
+
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.slider .slick-dots li{
+
+   list-style: none;
+}
+.slider .slick-dots button{
+	margin-top:20px;
+    font-size: 0;
+
+   height: 15px;
+   width: 15px;
+   background-color:#BBBBBB;
+   border-radius:50%;
+}
+.slider .slick-dots button:hover{
+	background-color:#FFBD2C;
+}
+@media(max-width: 768px){
+	.slider .slick-dots button{
+		   height: 10px;
+   width: 10px;
+	}
+}
